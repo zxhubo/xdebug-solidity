@@ -4,7 +4,7 @@
 
 此工具可以简单调试solidity带源码的opcode和离线调试不带源码的opcode，此工具带GUI。
 
-用户可以选择是solidity源码带solc文件，也可以是binary文件，也可以是最终的汇编文件，根据用户的需要在variable.py小小的修改。
+用户可以选择是solidity源码带solc文件，也可以是binary文件，也可以是最终的汇编文件，根据用户的需要在opcode_parse.py小小的修改。
 
 目前此版本的工具支持前进、后退的单步跟踪栈、内存、存储的数据结构，有兴趣的可以此工具扩展功能。
 
